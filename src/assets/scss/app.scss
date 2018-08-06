@@ -79,3 +79,43 @@
 #header {
   border-top: 6px solid $black;
 }
+
+.product {
+  position: relative;
+}
+
+.product .hover {
+  display: none;
+}
+
+.product:hover .normal {
+  display: none;
+}
+
+.product:hover .hover {
+  display: block;
+}
+
+.new {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: $primary-color;
+}
+
+.promo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  background: $black;
+}
+
+.promo i {
+  float: right;
+}
+
+.product:hover .promo {
+  display: block;
+}
