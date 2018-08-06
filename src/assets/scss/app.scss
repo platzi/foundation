@@ -75,3 +75,7 @@
 @import 'components/navigation/main-nav';
 
 @import 'components/footer';
+
+#header {
+  border-top: 6px solid $black;
+}
