@@ -94,3 +94,7 @@ $('[data-app-dashboard-toggle-shrink]').on('click', function(e) {
   e.preventDefault();
   $(this).parents('.app-dashboard').toggleClass('shrink-medium').toggleClass('shrink-large');
 });
+
+$('#offCanvasMenu li a').click(() => {
+  $('#offCanvas').foundation('close')
+})
