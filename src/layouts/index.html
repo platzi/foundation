@@ -12,7 +12,13 @@
   </head>
   <body>
 
-    {{> body}}
+    <div class="off-canvas-content" data-off-canvas-content>
+      {{> body}}
+    </div>
+
+    <div class="off-canvas position-right" id="offCanvas" data-off-canvas>
+      {{> offcanvas}}
+    </div>
 
     <script src="{{root}}assets/js/app.js"></script>
   </body>
